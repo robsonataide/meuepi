@@ -47,6 +47,11 @@ var app = (function() {
               controller: 'HomeController'
           })
           
+          .state('howWork', {
+              url: '/how-work',
+              templateUrl: '/views/how-work.view.html'
+          })
+          
           .state('login', {
               url: '/login',
               templateUrl: 'views/login.view.html',
